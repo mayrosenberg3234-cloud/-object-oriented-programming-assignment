@@ -10,7 +10,7 @@ def is_multiple(a, b):
     return False, "Neither is a multiple of the other"
 
 def main_section_4():
-    print(" Section 4: REPL Loop")
+    print("Section 4: REPL Loop")
 
     samples = [
         (10, 5),

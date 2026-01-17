@@ -18,7 +18,7 @@ class Robot:
         return "Beep Boop"
 
 def main_section_3():
-    print(" Polymorphism ")
+    print("Polymorphism ")
 
     animals = [Dog(), Cat()]
     for animal in animals:
@@ -35,3 +35,5 @@ def main_section_3():
 
 if __name__ == "__main__":
     main_section_3()
+
+#3.	מטרת רב־צורתיות היא לאפשר לאותה פעולה או קריאה למתודה להתבצע באופן שונה בהתאם לסוג האובייקט שמממש אותה, תוך שימוש בממשק משותף. התוצאה היא גמישות תכנונית גבוהה יותר, המאפשרת עבודה אחידה עם אובייקטים מסוגים שונים, הפחתת תלות בקוד, והרחבת המערכת בצורה פשוטה מבלי לשנות את הקוד הקיים.
